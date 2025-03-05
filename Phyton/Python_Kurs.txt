@@ -1,0 +1,43 @@
+
+Eingaben 	a = int(Input("zahl "))  #int Cast nötig da Input einen String zurück liefert
+
+
+Schleife durch Array:	 for elem in Array:
+
+ Zeichen alle Sprachen können bei Variablen Namen verwendet werden außer sie sind vorbelegt
+
+
+5**2 entspricht 5^2
+
+5//2 ergibt 2 -> Runden
+
+1 < 2 < 3 => True    Kette ist erlaubt
+
+2*j geht nicht, aber 2*(1+j) geht
+
+(1+3j).imag => 3
+
+Sting Ersetzungvariable 	"x=%s" %3  => x=3
+
+F-Strings:	print(f"a={a:b}, b={b:f}, c=0x{c.x}") gibt a=101010, b=3.20000, c=0xb
+
+String ausschneiden: "a=1" ->t[0:2] => "a=" #[dabei, nicht dabei]
+Schrittweite:	"text1"[1:10:3] =>"e1" #1 bis ausschließlich 10 mit 3er Schrittweite
+
+else nach while: wird ausgeführt wenn Schleife regulär beendet wird oder wenn Eintritsbedingung False, nicht bei Break Anweisung
+
+Funktion mit	 def name(Argument):
+Funktionen: sind Objekte, sie können Variablen zugewiesen werden und in Listen gespeichert werden
+def funktion(*args) #ermöglicht die Übergabe belibiger Argumente
+-> **kywrdarg 	#ermöglicht die Übergabe von Wörterbüchern, es wird eine Kopie davon erstellt
+mit Lambda <parameter> : <Ausdruck> kann man Funktionen erstellen welche keinen Namen haben, z.b. gleich übergeben werden
+
+Klassen: Attribute(Felder) können während der Laufzeit erzeugt werden
+Konstruktor ist in Python __init__ -> wird aufgerufen nachdem Objekt erzeugt wurde
+This-Pointer existiert nicht -> in Python self. dieser muss bei der Init Funktion als Argument stehen
+Attribut zugriff: erst wird bei den Instanz Variablen geschaut, wenn nicht vorhanden bei den Klassen Variablen(diese können auch nachträglich ergänzt werden)
+
+
+
+
+
